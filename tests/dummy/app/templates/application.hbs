@@ -1,4 +1,43 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{!-- Feel free to remove this! --}}
+<div class="application">
 
-{{outlet}}
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-8">
+        {{dashboard-card}}
+      </div>
+      <div class="col-sm-4">
+        {{dashboard-card}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        {{dashboard-card}}
+      </div>
+      <div class="col-sm-6 col-md-4">
+        {{dashboard-card}}
+      </div>
+      <div class="col-sm-6 col-md-4">
+        {{dashboard-card}}
+      </div>
+      <!-- end of three -->
+      <div class="col-sm-6 col-md-4">
+        {{dashboard-card}}
+      </div>
+      <div class="col-sm-6 col-md-4">
+        {{dashboard-card}}
+      </div>
+      <div class="col-sm-6 col-md-4">
+        {{dashboard-card}}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!--<script type="text/javascript" src="../../assets/lib/holderjs/holder.js"></script>-->
+<!--<script>-->
+<!--Holder.add_theme("white", { background:"#fff", foreground:"#a7a7a7", size:10 });-->
+<!--</script>-->

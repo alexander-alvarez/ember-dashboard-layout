@@ -1,0 +1,13 @@
+{{#if hasBlock}}
+  {{yield (hash
+            titleComponent='dashboard-card-title'
+            bodyComponent='dashboard-card-body'
+            footerComponent='dashboard-card-footer'
+          )
+  }}
+
+{{else}}
+  {{dashboard-card-title}}
+  {{dashboard-card-body}}
+  {{dashboard-card-footer}}
+{{/if}}
