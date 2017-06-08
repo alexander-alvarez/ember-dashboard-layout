@@ -1,37 +1,13 @@
 <div class="application">
 
   <div class="container-fluid">
+    {{#dashboard-row width=row1}}
+      {{dashboard-card}}
+    {{/dashboard-row}}
 
-    <div class="row">
-      <div class="col-sm-8">
-        {{dashboard-card}}
-      </div>
-      <div class="col-sm-4">
-        {{dashboard-card}}
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6 col-md-4">
-        {{dashboard-card}}
-      </div>
-      <div class="col-sm-6 col-md-4">
-        {{dashboard-card}}
-      </div>
-      <div class="col-sm-6 col-md-4">
-        {{dashboard-card}}
-      </div>
-      <!-- end of three -->
-      <div class="col-sm-6 col-md-4">
-        {{dashboard-card}}
-      </div>
-      <div class="col-sm-6 col-md-4">
-        {{dashboard-card}}
-      </div>
-      <div class="col-sm-6 col-md-4">
-        {{dashboard-card}}
-      </div>
-    </div>
+    {{#dashboard-row width=row2}}
+      {{dashboard-card}}
+    {{/dashboard-row}}
   </div>
 
 </div>
